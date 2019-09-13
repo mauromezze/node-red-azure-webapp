@@ -14,7 +14,7 @@ Or...
     ![Web sockets](./_images/websockets.png)
 
     **Figure 1** Activate Web sockets
-1. Configure the deployment options as an *External repository* pointing to [https://github.com/jmservera/node-red-azure-webapp.git](https://github.com/jmservera/node-red-azure-webapp.git)
+1. Configure the deployment options as an *External repository* pointing to [https://github.com/mauromezze/node-red-azure-webapp.git](https://github.com/mauromezze/node-red-azure-webapp.git)
 
     ![External repo](./_images/externalrepo.png)
 
@@ -63,4 +63,9 @@ To secure this deployment and add an admin password edit the `settings.js` file.
     * Update Nodejs to 8.9.4
     * Make Nodejs version configurable
     * Add Swagger Node
-
+* v2.0.0
+    * Update Nodejs to 10.14.1
+    * Update npm to
+    * Update Node-RED to 0.20.x
+    * Added nodes: Mosca MQTT broker, SQLite, MySQL, RED Bot, IFTTT
+    * Removed Azure related nodes and cognitive services
