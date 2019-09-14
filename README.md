@@ -48,7 +48,10 @@ It comes with some cool nodes preinstalled:
 
 ## Securing your deployment
 
-To secure this deployment and add an admin password edit the `settings.js` file.
+To secure this deployment and add an admin password edit the `settings.js` file as per this guide https://nodered.org/docs/user-guide/runtime/securing-node-red
+
+The file path is: D:\home\site\wwwroot\settings.js
+
 
 ## Version History
 
