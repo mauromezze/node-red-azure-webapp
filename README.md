@@ -65,7 +65,6 @@ To secure this deployment and add an admin password edit the `settings.js` file.
     * Add Swagger Node
 * v2.0.0
     * Update Nodejs to 10.14.1
-    * Update npm to
+    * Update npm to 6.4.1
     * Update Node-RED to 0.20.x
-    * Added nodes: Mosca MQTT broker, SQLite, MySQL, RED Bot, IFTTT
-    * Removed Azure related nodes and cognitive services
+
