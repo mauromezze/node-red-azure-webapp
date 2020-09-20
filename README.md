@@ -70,4 +70,6 @@ The file path is: D:\home\site\wwwroot\settings.js
     * Update Nodejs to 10.14.1
     * Update npm to 6.4.1
     * Update Node-RED to 0.20.x
+* v3.0.0
+    * Update Node-RED to 1.1.3
 
