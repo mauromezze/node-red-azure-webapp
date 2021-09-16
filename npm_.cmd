@@ -8,7 +8,7 @@ IF NOT EXIST "%NODE_EXE%" (
   SET "NODE_EXE=node"
 )
 
-SET "NPM_CLI_JS=c:\program files (x86)\npm\6.4.11\node_modules\npm\bin\npm-cli.js"
+SET "NPM_CLI_JS=c:\program files (x86)\npm\6.14.11\node_modules\npm\bin\npm-cli.js"
 FOR /F "delims=" %%F IN ('CALL "%NODE_EXE%" "%NPM_CLI_JS%" prefix -g') DO (
   SET "NPM_PREFIX_NPM_CLI_JS=%%F\node_modules\npm\bin\npm-cli.js"
 )
