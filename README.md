@@ -4,7 +4,7 @@ To use it just:
 
 1. Deploy to Azure with this button:
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmauromezze%2Fnode-red-azure-webapp%2Fmaster%2Fwebapp.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjmservera%2Fnode-red-azure-webapp%2Fmaster%2Fwebapp.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
 
 Or...
 
@@ -14,7 +14,7 @@ Or...
     ![Web sockets](./_images/websockets.png)
 
     **Figure 1** Activate Web sockets
-1. Configure the deployment options as an *External repository* pointing to [https://github.com/mauromezze/node-red-azure-webapp.git](https://github.com/mauromezze/node-red-azure-webapp.git)
+1. Configure the deployment options as an *External repository* pointing to [https://github.com/jmservera/node-red-azure-webapp.git](https://github.com/jmservera/node-red-azure-webapp.git)
 
     ![External repo](./_images/externalrepo.png)
 
@@ -48,28 +48,26 @@ It comes with some cool nodes preinstalled:
 
 ## Securing your deployment
 
-To secure this deployment and add an admin password edit the `settings.js` file as per this guide https://nodered.org/docs/user-guide/runtime/securing-node-red
-
-The file path is: D:\home\site\wwwroot\settings.js
-
+To secure this deployment and add an admin password edit the `settings.js` file.
 
 ## Version History
 
 * v0.0.1
-    * First test with basic nodes
+  * First test with basic nodes
 * v0.0.2
-    * Deploy to Azure Button
-    * Add cognitive services
+  * Deploy to Azure Button
+  * Add cognitive services
 * v0.0.3
-    * Update Node-Red version to 0.18.4
+  * Update Node-Red version to 0.18.4
 * v1.0.0
-    * Update Nodejs to 8.9.4
-    * Make Nodejs version configurable
-    * Add Swagger Node
-* v2.0.0
-    * Update Nodejs to 10.14.1
-    * Update npm to 6.4.1
-    * Update Node-RED to 0.20.x
-* v3.0.0
-    * Update Node-RED to 1.1.3
-
+  * Update Nodejs to 8.9.4
+  * Make Nodejs version configurable
+  * Add Swagger Node
+* v2.0.0-beta
+  * Update Nodejs to 12
+  * Update Node-red to 1.0.6
+  * Update azureiothubnode to 0.5.2
+  * Update cognitive-services 0.5.5
+  * Update dashboard 2.21.0
+  * Update node-swagger 0.1.9
+  
