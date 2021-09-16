@@ -54,16 +54,6 @@
       "metadata": {
         "description": "The branch of the GitHub repository to use."
       }
-<<<<<<< HEAD
-    },
-    "nodeJsVersion":{
-      "type": "string",
-      "defaultValue": "14.17.6",
-      "metadata": {
-        "description": "Nodejs version, make sure that the App Service supports the version you set here."
-      }
-=======
->>>>>>> fb0d928f7d0830538f9be3b4975593dfb8c32f36
     }
   },
   "variables": {
