@@ -132,7 +132,7 @@
             "[resourceId('Microsoft.Web/Sites', parameters('siteName'))]"
           ],
           "properties": {
-            "WEBSITE_NODE_DEFAULT_VERSION": "~10"
+            "WEBSITE_NODE_DEFAULT_VERSION": ~10
           }
         },
         {
