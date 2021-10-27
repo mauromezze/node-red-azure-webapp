@@ -107,7 +107,8 @@
         "siteConfig": {
           "webSocketsEnabled": true,
           "alwaysOn": "[variables('alwaysOnValue')[parameters('sku')]]",
-          "phpVersion":""
+          "phpVersion":"",
+          
         }
       },
       "resources": [
@@ -122,6 +123,17 @@
             "RepoUrl": "[parameters('repoURL')]",
             "branch": "[parameters('branch')]",
             "IsManualIntegration": true
+          }
+        },
+        {
+          "apiVersion": "2015-08-01",
+          "name": "appsettings",
+          "type": "config",
+          "dependsOn": [
+            "[resourceId('Microsoft.Web/Sites', parameters('siteName'))]"
+          ],
+          "properties": {
+            "WEBSITE_NODE_DEFAULT_VERSION": "~10"
           }
         },
         {
