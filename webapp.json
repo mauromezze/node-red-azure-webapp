@@ -107,8 +107,7 @@
         "siteConfig": {
           "webSocketsEnabled": true,
           "alwaysOn": "[variables('alwaysOnValue')[parameters('sku')]]",
-          "phpVersion":"",
-          
+          "phpVersion":""
         }
       },
       "resources": [
