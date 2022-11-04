@@ -19,7 +19,7 @@
     "node-red",
     "Azure"
   ],
-  "author": "jmservera",
+  "author": "mauromezze",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mauromezze/node-red-azure-webapp/issues"
