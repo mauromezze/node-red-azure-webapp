@@ -1,10 +1,10 @@
 {
   "name": "node-red-webapp",
-  "version": "3.0.0",
+  "version": "4.0.2",
   "description": "A webapp wrapper for running node-red in an Azure Web App",
   "main": "server.js",
   "dependencies": {
-    "node-red": "^3.0.0"
+    "node-red": "^4.0.2"
   },
   "devDependencies": {},
   "scripts": {
